@@ -27,6 +27,6 @@ touch /home/digdug/mining_logs/raw_mining.log
 # Modify Visudo to allow reboot and nvidia-smi without passwords
 
 # Copy mine file
-cp /home/digdug/miner/mine.sh.sample /home/digdug/miner/mine.sh
-echo "Done! Don't forget to change your wallet address"
+# cp /home/digdug/miner/mine.sh.sample /home/digdug/miner/mine.sh # need to modify this code to ensure that cp doesnt replace if file already exist
+echo "Done! Don't forget to 1. set up mine.sh, oc_now.sh and change your wallet address"
 
