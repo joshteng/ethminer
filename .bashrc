@@ -119,7 +119,7 @@ alias miner="screen -r ethm"
 
 # TO OVERCLOCK
 OC_LOG_FILE="/tmp/oc.log"
-OC_SCRIPT="oc.sh"
+OC_SCRIPT="overclock/oc.sh"
 
 if [ ! -f $OC_LOG_FILE ]; then
   touch $OC_LOG_FILE
