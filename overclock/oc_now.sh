@@ -1,3 +1,5 @@
+sudo nvidia-smi -pm 1
+
 nvidia-settings -a '[gpu:0]/GPUMemoryTransferRateOffset[3]=1100'
 sudo nvidia-smi -pl 120 -i 0
 
